@@ -40,11 +40,11 @@
           echo"<br>";
           echo"$string";
           echo"<br>";
-          echo "srinju"[5];
+          echo "srinju"[5];//its print the number 5 character of srinju here its print u
           echo"<br>";
           echo str_replace("boss","Goat",$string);//its replace boss in string by goat
           echo"<br>";
-          echo substr($string,5,3);//last index use for grabing number of characters
+          echo substr($string,5,3);// 1st argument is the string, 2nd arg for where to start, 3rd arg  use for how much grabing number of characters
         ?>
      </body>
 </html>
