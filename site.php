@@ -36,7 +36,7 @@
           echo strlen($string);//use for knowing the length of string 
           echo"<br>";
           echo $string[0];//in php string character start from index 0
-          $string[1]="i";
+          $string[1]="i";//replace the particular index's character
           echo"<br>";
           echo"$string";
           echo"<br>";
