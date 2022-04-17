@@ -6,7 +6,7 @@
         </head>
       <body>
         <?php 
-            // we can rite php stanalone like in between <?php  ?> but here we use php in between html for use html advantages
+            //we can rite php stanalone like in between <?php  ?> but here we use php in between html for use html advantages
               
           //always write code in php inbetween <?php .....?>
 
@@ -44,7 +44,7 @@
           echo"<br>";
           echo str_replace("boss","Goat",$string);//its replace boss in string by goat
           echo"<br>";
-          echo substr($string,5,3);// 1st argument is the string, 2nd arg for where to start, 3rd arg  use for how much grabing number of characters
+          echo substr($string,5,3);//1st argument is the string, 2nd arg for where to start, 3rd arg  use for how much grabing number of characters
         ?>
      </body>
 </html>
