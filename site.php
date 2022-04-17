@@ -6,10 +6,13 @@
         </head>
       <body>
         <?php 
+            // we can rite php stanalone like in between <?php  ?> but here we use php in between html for use html advantages
+              
+          //always write code in php inbetween <?php .....?>
 
-          /*$name="srinjay's";
-          $age=21;
-          echo("<h1>$name own site</h1><br>");
+          /*$name="srinjay's";//'$'use for variable declearation here string use so " " used
+          $age=21;//integer type so no " "
+          echo("<h1>$name own site</h1><br>");// echo used for print
           echo"<hr>";
           echo"<p>$name age = $age</p><br>";
           $name="digantaleena";
@@ -18,32 +21,34 @@
           echo"<p>her age = $age</p><br>";*/
 
 
-          /*$str=null/"any string";
-           $num=null/any value;
+          /*$str=null/ null means no value but u can use "any string";
+           $num=null/null means no value but  u can use any value;
            $iamhere=true;
           echo "$str<br>";
           echo $num;*/
 
 
           $string="i am boss";
-          echo strtoupper($string);
+          echo strtoupper($string);//use for make string in upper case
           echo"<br>";
-          echo strtolower($string);
+          echo strtolower($string);//use for make string in lower case 
           echo"<br>";
-          echo strlen($string);
+          echo strlen($string);//use for knowing the length of string 
           echo"<br>";
-          echo $string[0];
+          echo $string[0];//in php string character start from index 0
           $string[1]="i";
           echo"<br>";
           echo"$string";
           echo"<br>";
           echo "srinju"[5];
           echo"<br>";
-          echo str_replace("boss","Goat",$string);
+          echo str_replace("boss","Goat",$string);//its replace boss in string by goat
           echo"<br>";
           echo substr($string,5,3);//last index use for grabing number of characters
         ?>
      </body>
 </html>
+
+    
 
     
