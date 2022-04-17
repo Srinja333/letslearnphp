@@ -6,9 +6,9 @@
         </head>
       <body>
         <?php 
-            //we can rite php stanalone like in between <?php  ?> but here we use php in between html for use html advantages
+            //we can rite php stanalone like in between <?php...?> but here we use php in between html for use html advantages
               
-          //always write code in php inbetween <?php .....?>
+          //always write code in php inbetween <?php.....?>
 
           /*$name="srinjay's";//'$'use for variable declearation here string use so " " used
           $age=21;//integer type so no " "
