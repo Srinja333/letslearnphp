@@ -21,8 +21,8 @@
           echo("<h3>srinjay loved $name</h3><br>");
           echo"<p>her age = $age</p><br>";
 
-           $str=null/ null means no value but u can use "any string";
-           $num=null/null means no value but  u can use any value;
+           $str=null;// null means no value but u can use "any string";
+           $num=null;//null means no value but  u can use any value;
            $iamhere=true;
           echo "$str<br>";
           echo $num;
